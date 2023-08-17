@@ -11,7 +11,7 @@ function App() {
     event.preventDefault();
 
     try {
-      const response = await axios.post("http://localhost:3200/shorturl", {
+      const response = await axios.post("https://backendurlshortner.onrender.com/shorturl", {
         url: url,
       });
 
