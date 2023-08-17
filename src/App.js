@@ -49,8 +49,8 @@ function App() {
       {shortUrl && (
         <div>
           <div className="out">
-            
-              <span>Short URL: 👉</span>
+              <p>Short URL:</p>
+              <span> 👉</span>
               <a href={shortUrl} target="_blank" rel="noopener noreferrer">
                 {shortUrl}
               </a>
