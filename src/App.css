@@ -25,6 +25,12 @@ img{
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-direction: column;
+}
+h3{
+  margin-bottom: 30px;
+  color: rgb(226, 230, 179);
+  font-size: 25px;
 }
 
 .inp{

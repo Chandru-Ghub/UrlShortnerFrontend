@@ -25,8 +25,12 @@ function App() {
 
 
   return (
+    <div>
+  
     <div className="cont">
-     
+    <marquee behavior="" direction="">
+    <h3>Just copy and paste the URL and get a shortend URL in one click 👍</h3>
+  </marquee>
       <div className="App">
       <h2>URL SHORTENER</h2>
       <form onSubmit={handleSubmit}>
@@ -54,7 +58,7 @@ function App() {
         </div>
       )}
     </div>
-       
+    </div>
     </div>
   );
 }
